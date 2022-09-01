@@ -1,0 +1,312 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.smartphone__bezel {
+  border-width: 1.5rem 1rem;
+  border-radius: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 35.5rem;
+  max-height: 66.7rem;
+}
+
+.smartphone__bezel--notch {
+  width: 10rem;
+  height: 2rem;
+  background-color: black;
+  position: relative;
+  border-radius: 1rem;
+  top: -1.3rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.login__screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 35.5rem;
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.freebank__logo {
+  margin-top: 8rem;
+  margin-left: 14.7rem;
+  margin-right: 14.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.freebank__logo--img {
+  max-width: 8rem;
+  max-height: 6.5rem;
+}
+
+.login__message {
+  margin-top: 8.7rem;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.login__input {
+  border: none;
+  width: 17rem;
+  height: 3rem;
+  border-radius: 1rem;
+  padding: 0;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+
+.login__input:focus {
+  color: rgba(197, 137, 54, 1);
+}
+
+.login__btn {
+  border: none;
+  padding: 0;
+  width: 17rem;
+  height: 3rem;
+  border-radius: 1.5rem;
+  margin-bottom: 20rem;
+}
+
+.dashboard__screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.8rem;
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+}
+
+.dashboard__screen--logo {
+  width: 3.2rem;
+  height: 3rem;
+}
+
+.top__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30rem;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 32rem;
+  height: 9rem;
+  border-radius: 1rem;
+  padding-bottom: 0.6rem;
+}
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 32rem;
+  height: 19.3rem;
+  border-radius: 1rem;
+  /* padding-bottom: 0.6rem; */
+  overflow-x: hidden;
+}
+
+.transactions__label--container {
+  height: 2.9rem;
+}
+
+.transactions__sort {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -1.5rem;
+  left: 18rem;
+  width: 1.9rem;
+  height: 1.4rem;
+  border: none;
+  background-color: transparent;
+}
+
+.transactions__row--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0rem;
+}
+
+/* ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 1);
+} */
+
+.transactions__row {
+  box-sizing: border-box;
+  width: 32rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.row__separator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.4rem;
+  box-sizing: border-box;
+}
+
+.transactions__type {
+  border-radius: 1rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+
+.transactions__summary {
+  box-sizing: border-box;
+  width: 32rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.summary_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.transfer {
+  width: 32rem;
+  height: 7.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 1rem;
+}
+
+.transfer__form {
+  width: 32rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2.1rem;
+}
+
+.input__fields {
+  width: 11rem;
+  height: 2rem;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  padding: 0;
+  padding-left: 1rem;
+  box-sizing: border-box;
+}
+
+.input__fields:focus {
+  color: rgba(197, 137, 54, 1);
+}
+
+.form__btn {
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.loan {
+  width: 32rem;
+  height: 7.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  border-radius: 1rem;
+}
+
+.loan__form {
+  width: 32rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2.1rem;
+}
+
+.logout__timer {
+  margin-bottom: 1rem;
+}
+
+.logout__btn:hover,
+.transactions__sort:hover,
+.form__btn:hover,
+.login__btn:hover {
+  cursor: pointer;
+}
+
+/* .transactions__type--withdrawal {
+  color: #7a1010;
+}
+
+.transactions__type--deposit {
+  color: #485d34;
+} */
+
+.login__screen,
+.dashboard__screen {
+  transition: 0.5s ease-in-out;
+}

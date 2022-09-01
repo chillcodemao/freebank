@@ -1,0 +1,195 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: rgba(197, 137, 54, 0.3);
+}
+
+.smartphone__bezel {
+  border-top: 1.5rem solid black;
+  border-right: 1rem solid black;
+  border-left: 1rem solid black;
+  border-bottom: 1.5rem solid black;
+  background-color: rgba(24, 30, 45, 1);
+}
+
+.smartphone__bezzel--notch {
+  background-color: black;
+}
+
+.login__screen {
+  background-color: rgba(24, 30, 45, 1);
+}
+
+.freebank__logo--title {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: rgba(158, 143, 122, 1);
+}
+
+.login__message {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: rgba(158, 143, 122, 1);
+}
+
+.login__username,
+.login__pin {
+  background-color: rgba(56, 60, 71, 1);
+  box-shadow: inset 0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.login__username::placeholder,
+.login__pin::placeholder {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: rgba(158, 143, 122, 0.5);
+}
+
+.login__btn {
+  background-color: rgba(56, 60, 71, 1);
+  box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  color: rgba(197, 137, 54, 1);
+  mix-blend-mode: normal;
+  text-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+}
+
+.dashboard__screen {
+  background-color: rgba(24, 30, 45, 1);
+}
+
+.welcome__msg,
+.logout__btn {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: rgba(158, 143, 122, 1);
+}
+
+.balance,
+.transactions,
+.transfer,
+.loan {
+  background-color: rgba(12, 14, 19, 1);
+  box-shadow: 0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.balance__label,
+.transactions__label,
+.transfer__label,
+.loan__label {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  color: rgba(218, 218, 218, 1);
+}
+
+.balance__value {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  color: rgba(197, 137, 54, 1);
+}
+
+.balance__date {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: rgba(158, 143, 122, 1);
+}
+
+.transactions__sort {
+  color: rgba(158, 143, 122, 1);
+  font-size: 1.4rem;
+}
+
+.transactions__row {
+  border-top: 0.1rem solid rgba(0, 0, 0, 1);
+  /* background-color: rgba(20, 23, 29, 1); */
+}
+
+.transactions__type {
+  background-color: rgba(158, 143, 122, 1);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  color: rgba(0, 0, 0, 1);
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+
+.transactions__date {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: rgba(158, 143, 122, 1);
+}
+
+.transactions__value {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  color: rgba(197, 137, 54, 1);
+}
+
+.transactions__summary {
+  border-top: 0.1rem solid rgba(0, 0, 0, 1);
+}
+
+.summary__in--label,
+.summary__out--label,
+.summary__interest--label {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  color: rgba(158, 143, 122, 1);
+  text-transform: uppercase;
+}
+
+.summary__in--value,
+.summary__out--value,
+.summary__interest--value {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  color: rgba(197, 137, 54, 1);
+}
+
+.input__fields {
+  background-color: rgba(56, 60, 71, 1);
+  box-shadow: inset 0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.input__fields::placeholder {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: rgba(158, 143, 122, 0.5);
+}
+
+.form__btn {
+  background-color: rgba(56, 60, 71, 1);
+  box-shadow: inset 0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+  color: rgba(197, 137, 54, 1);
+  width: 3rem;
+  height: 2rem;
+}
+
+.logout__timer {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: rgba(158, 143, 122, 1);
+}
+
+.timer {
+  color: rgba(197, 137, 54, 1);
+}
