@@ -54,7 +54,7 @@ Account 2:
 - logout timer resets when doing successful money tranfers or by being granted a loan
 - time delay between login screen and dashboard screen
 - time delay before being granted loan
-- time delay before processing tranaction
+- time delay before processing tranzaction
 
 **4. Misc**
 - text editor used: VS Code
